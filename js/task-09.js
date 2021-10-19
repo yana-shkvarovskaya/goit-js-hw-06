@@ -12,6 +12,6 @@ function onButtonBcgColor() {
   let currentColor = getRandomHexColor();
 
   bcgColor.style.backgroundColor = currentColor;
-bcgColor.textContent = currentColor;
+  bcgColor.textContent = currentColor;
   body.style.backgroundColor = currentColor;
 }
