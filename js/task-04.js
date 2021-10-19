@@ -10,6 +10,7 @@ addValueBtn.addEventListener("click", (event) => {
 });
 
 removeValueBtn.addEventListener("click", (event) => {
-  counterValue -= 1 && counterValue >= 1; // чтоб значение не опускалось ниже 0
+  counterValue -= 1;
+  // && counterValue >= 1; // чтоб значение не опускалось ниже 0
   value.textContent = counterValue;
 });

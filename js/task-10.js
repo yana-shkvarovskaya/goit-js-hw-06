@@ -8,11 +8,11 @@ const btnCreate = document.querySelector("button[data-create]");
 const btnDestroy = document.querySelector("button[data-destroy]");
 
 function createBoxes(amount) {
-  const initialsize = 30;
+  const initialSize = 30;
   for (let i = 0; i < amount; i += 1) {
     let newBox = document.createElement("div");
-    newBox.style.width = `${initialsize + 10 * i}px`;
-    newBox.style.height = `${initialsize + 10 * i}px`;
+    newBox.style.width = `${initialSize + 10 * i}px`;
+    newBox.style.height = `${initialSize + 10 * i}px`;
     newBox.style.backgroundColor = getRandomHexColor();
 
     allBoxes.append(newBox);
